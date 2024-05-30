@@ -9,6 +9,16 @@ h1{
     border-radius: 8px;
     box-shadow: 5px 5px 5px;
     font-size: 50px;
+}h2,ul{
+    margin-left: 1%;
+    margin-right: 80%;
+    text-align: left;
+    text-shadow: 3px 3px black;
+    background-color: rgb(162, 91, 190);
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px;
+    font-size: 50px;
 }
 #lista{
     font-size: 30px;
