@@ -52,11 +52,57 @@
                     <img id="kep2" src="brawlhalla.jpg" title="brawlhalla">
                 </td>
                 <td>
-                    <p id="p2"><img id="kep5" src="brawlhalla 2.jpg" title="brawlhalla">Brawlhalla</p>
+                    <style>
+                        .container {
+                          position: relative;
+                          width: 100%;
+                        }
+                        
+                        .image {
+                          opacity: 1;
+                          display: block;
+                          width: 100%;
+                          height: auto;
+                          transition: .5s ease;
+                          backface-visibility: hidden;
+                        }
+                        
+                        .middle {
+                          transition: .5s ease;
+                          opacity: 0;
+                          position: absolute;
+                          top: 50%;
+                          left: 50%;
+                          transform: translate(-50%, -50%);
+                          -ms-transform: translate(-50%, -50%)
+                        }
+                        
+                        .container:hover .image {
+                          opacity: 0.3;
+                        }
+                        
+                        .container:hover .middle {
+                          opacity: 1;
+                        }
+                        
+                        .text {
+                          background-color: #893dd1;
+                          color: white;
+                          font-size: 15px;
+                          padding: 16px 32px;
+                        }
+                        </style>
+                        <div class="container">
+                            <p id="p2"><img id="kep5" src="brawlhalla 2.jpg" alt="Avatar" class="image" style="width:100%">Brawlhalla</p>
+                          <div class="middle">
+                            <div class="text"><a link rel="button" href="Akcio.html">Brawlhalla</a></div>
+                          </div>
+                        </div>
                 </td>
                 <td>
                     <img id="kep6" src="brawlhalla 3.jpg" title="brawlhalla">
                 </td>
+            </tr>
         </table>
         <hr>
         <hr>
@@ -69,10 +115,11 @@
                     <h2 id="h22">Lenyűgöző játékok egy helyen</h2>
                     <p class="p4">Játékokról infó, tudnivaló.</p>
                     <p class="p4">Ha játkot keresel, ezen az oldalon rengeteg játékról olvashatsz részletesen mielőtt letöltenéd. Győződj meg arról, hogy tényleg a számodra a megfelelő játkot töltöd le.</p>
-                    <p class="p4">Sok játék műfajból lehet választani. Ami érdekesnek tünhet olvasd el. Mi segítünk, hogy a neked megfelelő játékot találjunk.</p>
+                    <p class="p4">Sok játék műfajból lehet választani. Ami érdekesnek tünhet olvasd el. Mi segítünk, hogy a neked megfelelő játékot találjunk!</p>
                 </th>
             </tr>
         </table>
+        <p id="p5">Készítők: Kstalbert,</p>
     </div>
 </body>
 </html>
