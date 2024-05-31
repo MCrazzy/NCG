@@ -31,7 +31,53 @@
                     <img id="kep3" src="league of legends.jpg" title="League-of-legends">
                 </td>
                 <td>
-                    <p id="p"><img id="kep" src="league-of-legends3.webp" title="League-of-legends">League-of-legends</p>
+                    <style>
+                        .container {
+                          position: relative;
+                          width: 50%;
+                        }
+                        
+                        .image {
+                          display: block;
+                          width: 100%;
+                          height: auto;
+                        }
+                        
+                        .overlay {
+                          position: absolute;
+                          bottom: 100%;
+                          left: 0;
+                          right: 0;
+                          background-color: #7813a7;
+                          overflow: hidden;
+                          width: 100%;
+                          height: 0;
+                          transition: .5s ease;
+                        }
+                        
+                        .container:hover .overlay {
+                          bottom: 0;
+                          height: 100%;
+                        }
+                        
+                        .text {
+                          white-space: nowrap; 
+                          color: white;
+                          font-size: 20px;
+                          position: absolute;
+                          overflow: hidden;
+                          top: 50%;
+                          left: 50%;
+                          transform: translate(-50%, -50%);
+                          -ms-transform: translate(-50%, -50%);
+                        }
+                        </style>
+                        <div class="container">
+                            <p id="p"><img id="kep" src="league-of-legends3.webp" alt="Avatar" class="image">League-of-legends</p>
+                            <div class="overlay">
+                              <div class="text"><a link rel="button" href="Akcio.html">League-of-legends</a></div>
+                            </div>
+                          </div>
                 </td>
                 <td>
                     <img id="kep4" src="league-of-legends 2.jpg" title="League-of-legends">
@@ -115,7 +161,7 @@
                     <h2 id="h22">Lenyűgöző játékok egy helyen</h2>
                     <p class="p4">Játékokról infó, tudnivaló.</p>
                     <p class="p4">Ha játkot keresel, ezen az oldalon rengeteg játékról olvashatsz részletesen mielőtt letöltenéd. Győződj meg arról, hogy tényleg a számodra a megfelelő játkot töltöd le.</p>
-                    <p class="p4">Sok játék műfajból lehet választani. Ami érdekesnek tünhet olvasd el. Mi segítünk, hogy a neked megfelelő játékot találjunk!</p>
+                    <p class="p4">Sok játék műfajból lehet választani. Ami érdekesnek tünhet olvasd el. Mi segítünk, hogy neked megfelelő játékot találjunk!</p>
                 </th>
             </tr>
         </table>
