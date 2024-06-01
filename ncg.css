@@ -41,7 +41,7 @@ h1{
 }
 #kep{
     height: 200px;
-    width: 400px;
+    width: 350px;
     padding-left: 20px;
 }
 #kep2{
@@ -51,7 +51,7 @@ h1{
 }
 #kep3{
     height: 200px;
-    width: 350px;
+    width: 300px;
     padding-left: 20px;
 }
 #bev{
@@ -66,12 +66,12 @@ h1{
     box-shadow: 2px 2px rgb(91, 89, 182);
     border-radius: 10px;
 }
-table{
+.table{
     border: 3px solid rgb(202, 128, 221);
 }
 #kep4{
     height: 200px;
-    width: 350px;
+    width: 300px;
     padding-left: 20px;
 }
 #p{
@@ -131,4 +131,34 @@ table{
 }
 #p5{
     color: white;
+}
+#akciokep{
+    height: 100px;
+    width: 200px;
+    padding-left: 50px;
+}
+#kalandkep{
+    height: 100px;
+    width: 200px;
+    padding-left: 40px;
+}
+#stratkep{
+    height: 100px;
+    width: 200px;
+    padding-left: 40px;
+}
+#szimulatorkep{
+    height: 100px;
+    width: 200px;
+    padding-left: 40px;
+}
+#sportkep{
+    height: 100px;
+    width: 200px;
+    padding-left: 40px;
+}
+#multikep{
+    height: 100px;
+    width: 200px;
+    padding-left: 40px;
 }
