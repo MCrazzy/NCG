@@ -169,3 +169,26 @@ h1{
     -webkit-background-clip: text;
     color: transparent;
 }
+.homeHero__title {
+	color: #fff;
+	margin: 0 auto;
+	font-family: proxima-nova,sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: default;
+}
+.homeHero__title {
+	text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+.homeHero__title div{
+    transition: 1.5s opacity ease .5s,1.5s transform ease .5s,.5s color ease,.5s -webkit-text-stroke ease,1.5s -webkit-transform ease .5s,1.5s -moz-transform ease .5s,1.5s -o-transform ease .5s;
+}
+.homeHero__title div:hover {
+	color: #fff;
+	-webkit-text-stroke: 2px #000;
+}
+.div2{
+    font-size: 40px;
+}
