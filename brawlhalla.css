@@ -25,3 +25,20 @@ p{
     margin-right: auto;
     display: block;
 }
+#vissza{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#button:hover {
+    background-color: rgb(17, 19, 22);
+    color:rgb(179, 128, 189);
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px rgb(91, 89, 182);
+    border-radius: 10px;
+}
+#vissza2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
