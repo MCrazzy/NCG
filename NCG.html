@@ -149,21 +149,112 @@
                     <img id="kep6" src="brawlhalla 3.jpg" title="brawlhalla">
                 </td>
             </tr>
+            <hr>
+            <hr>
         </table>
-        <hr>
-        <hr>
         <hr>
         <hr>
         <hr>
         <table>
           <tr>
             <td>
-              <img id="akciokep" src="akciojatek.webp">
+              <style>
+                .container {
+                  position: relative;
+                  width: 100%;
+                }
+                
+                .image {
+                  opacity: 1;
+                  display: block;
+                  width: 100%;
+                  height: auto;
+                  transition: .5s ease;
+                  backface-visibility: hidden;
+                }
+                
+                .middle {
+                  transition: .5s ease;
+                  opacity: 0;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%)
+                }
+                
+                .container:hover .image {
+                  opacity: 0.3;
+                }
+                
+                .container:hover .middle {
+                  opacity: 1;
+                }
+                
+                .text {
+                  background-color: #893dd1;
+                  color: white;
+                  font-size: 15px;
+                  padding: 16px 32px;
+                }
+                </style>
+                <div class="container">
+                  <p id="p6"><img id="akciokep" src="akciojatek.webp" alt="Avatar" class="image" style="width:100%">Akció játékok</p>
+                <div class="middle">
+                  <div class="text"><a link rel="button" href="Akcio.html">Akció játék</a></div>
+                </div>
+              </div>
             </td>
             <td>
-              <img id="kalandkep" src="kalandjatek.jpg">
+              <style>
+                .container {
+                  position: relative;
+                  width: 100%;
+                }
+                
+                .image {
+                  opacity: 1;
+                  display: block;
+                  width: 100%;
+                  height: auto;
+                  transition: .5s ease;
+                  backface-visibility: hidden;
+                }
+                
+                .middle {
+                  transition: .5s ease;
+                  opacity: 0;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%)
+                }
+                
+                .container:hover .image {
+                  opacity: 0.3;
+                }
+                
+                .container:hover .middle {
+                  opacity: 1;
+                }
+                
+                .text {
+                  background-color: #893dd1;
+                  color: white;
+                  font-size: 15px;
+                  padding: 16px 32px;
+                }
+                </style>
+                <div class="container">
+                  <p id="p6"><img id="kalandkep" src="kalandjatek.jpg" alt="Avatar" class="image" style="width:100%">Kaland játékok</p>
+                <div class="middle">
+                  <div class="text"><a link rel="button" href="kaland.html">Kaland játék</a></div>
+                </div>
+              </div>
             </td>
             <td>
+              
               <img id="stratkep" src="strategiaijatek.jpg">
             </td>
             <td>
@@ -188,7 +279,7 @@
                 </th>
             </tr>
         </table>
-        <p id="p5">Készítők: Kstalbert,</p>
+        <p id="p5">Készítők: Kstalbert,</p><p>2024. 05. 30.</p>
     </div>
 </body>
 </html>
