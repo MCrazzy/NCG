@@ -135,32 +135,32 @@ h1{
 #akciokep{
     height: 100px;
     width: 200px;
-    padding-left: 50px;
+    border: 2px solid black;
 }
 #kalandkep{
     height: 100px;
     width: 200px;
-    padding-left: 40px;
+    border: 2px solid black;
 }
 #stratkep{
     height: 100px;
     width: 200px;
-    padding-left: 40px;
+    border: 2px solid black;
 }
 #szimulatorkep{
     height: 100px;
     width: 200px;
-    padding-left: 40px;
+    border: 2px solid black;
 }
 #sportkep{
     height: 100px;
     width: 200px;
-    padding-left: 40px;
+    border: 2px solid black;
 }
 #multikep{
     height: 100px;
     width: 200px;
-    padding-left: 40px;
+    border: 2px solid black;
 }
 #p6{
     text-align: center;
@@ -191,4 +191,7 @@ h1{
 }
 .div2{
     font-size: 40px;
+}
+hr{
+    border: 2px solid rgb(202, 128, 221);
 }
