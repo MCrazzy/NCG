@@ -1,10 +1,29 @@
-h1{
+#h1{
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
+    text-shadow: 3px 3px black;
+    color: white;
 }
 #ul{
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
+    color: white;
+}
+#visz{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#button:hover {
+    background-color: rgb(17, 19, 22);
+    color:rgb(179, 128, 189);
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px rgb(91, 89, 182);
+    border-radius: 10px;
+}
+#neon{
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
