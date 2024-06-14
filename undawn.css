@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: darkgrey;
     color: black;
     text-align: center;
 }
@@ -12,4 +12,12 @@ h2,h3{
 p{
   width: 60%;
   margin-left: 20vw;
+  text-align: justify;
+}
+#button:hover {
+    background-color: rgb(17, 19, 22);
+    color:rgb(179, 128, 189);
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px rgb(91, 89, 182);
+    border-radius: 10px;
 }
