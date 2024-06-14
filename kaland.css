@@ -29,5 +29,12 @@ ul{
 }
 .a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black
+    color: white
+}
+body
+{
+    background-image:url('hatterkalandhoz.jpg');
+    background-repeat:repeat;
+    background-size:contain;
+    background-position:center;
 }
