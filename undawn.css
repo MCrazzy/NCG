@@ -1,6 +1,7 @@
 body{
     background-color: beige;
     color: black;
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -9,6 +10,6 @@ h2,h3{
     margin-left: 2vw;
 }
 p{
-    width: 40%;
-    margin-left: 20px;
+  width: 60%;
+  margin-left: 20vw;
 }
